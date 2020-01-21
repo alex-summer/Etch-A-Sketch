@@ -1,14 +1,16 @@
-.grid-container{
-  display: flex;
-  flex-wrap: wrap;
+body{
+  text-align: center;
+}
+#grid-container{
+  display: grid;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
 }
 
-.grid-item {
-  padding-top: 100%; /* padding trick directly on the grid item */
-  box-sizing: border-box;
-  position: relative;
-  align-items: stretch;
-  border: 1px solid black;
+#grid-item {
+ 
   
 
 }
